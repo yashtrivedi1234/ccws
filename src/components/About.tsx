@@ -4,7 +4,7 @@ import { Code, Users, Award, Target, Linkedin } from 'lucide-react';
 import aksaImage from '../assets/aksa.jpeg';
 import irshadImage from '../assets/irshad.jpeg';
 import satyaImage from '../assets/satya.jpeg';
-import sureshImage from '../assets/suresh.jpeg';
+import sureshImage from '../assets/suresh.png';
 import yashImage from '../assets/yash.jpeg';
 import shivangiImage from '../assets/shivangi.jpeg';
 import shaluImage from '../assets/shalu.jpeg';
