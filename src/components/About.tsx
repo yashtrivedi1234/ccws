@@ -40,7 +40,7 @@ const About = () => {
       linkedinUrl: 'https://www.linkedin.com/in/yash-trivedi-contact/',
     },
     {
-      name: 'Shivagi Yadav',
+      name: 'Shivangi Yadav',
       role: 'Software Developer',
       image: shivangiImage,
       linkedinUrl: 'https://www.linkedin.com/in/shivangi-ydv/',

@@ -50,7 +50,11 @@ const Footer = () => {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <img src={logo} alt="Code Crafter" className="h-12 w-auto mb-4" />
+           <img
+  src={logo}
+  alt="Code Crafter"
+  className="h-12 w-auto mb-4 bg-white p-2 rounded-lg"
+/>
               <p className="text-gray-400 mb-6 leading-relaxed">
                 Crafting powerful digital experiences that drive business growth.
                 Based in Lucknow, serving clients worldwide.
@@ -67,7 +71,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
                   <MapPin size={18} />
-                  <span>Lucknow, Uttar Pradesh, India</span>
+                  <span>2nd floor, 1F/957, Vardan Khand, Sector 1, Gomti Nagar, Lucknow, Uttar Pradesh 226010</span>
                 </div>
               </div>
             </motion.div>
