@@ -9,43 +9,55 @@ const Portfolio = () => {
   });
 
   const projects = [
-    {
-      title: 'E-Commerce Platform',
-      category: 'Web Development',
-      description: 'Modern online shopping experience with secure payments',
-      gradient: 'from-blue-500 to-purple-600',
-    },
-    {
-      title: 'Corporate Website',
-      category: 'UI/UX Design',
-      description: 'Professional corporate identity and branding',
-      gradient: 'from-green-500 to-teal-600',
-    },
-    {
-      title: 'Mobile App Design',
-      category: 'App Design',
-      description: 'Intuitive mobile application interface',
-      gradient: 'from-orange-500 to-red-600',
-    },
-    {
-      title: 'SaaS Dashboard',
-      category: 'Web Development',
-      description: 'Complex data visualization and analytics platform',
-      gradient: 'from-pink-500 to-rose-600',
-    },
-    {
-      title: 'Restaurant Website',
-      category: 'Web Design',
-      description: 'Beautiful food ordering and reservation system',
-      gradient: 'from-yellow-500 to-orange-600',
-    },
-    {
-      title: 'Healthcare Portal',
-      category: 'Web Development',
-      description: 'Patient management and telemedicine platform',
-      gradient: 'from-indigo-500 to-blue-600',
-    },
-  ];
+  {
+    title: "Business Website Design",
+    category: "Website Design",
+    description: "Modern and responsive business website with engaging UI and smooth user experience.",
+    gradient: "from-blue-500 to-indigo-600",
+  },
+  {
+    title: "CRM Management Software",
+    category: "Custom Software",
+    description: "Custom-built CRM system to manage leads, clients, and business workflows efficiently.",
+    gradient: "from-purple-500 to-pink-600",
+  },
+  {
+    title: "Food Delivery Mobile App",
+    category: "Mobile App Development",
+    description: "High-performance mobile app with real-time order tracking and smooth user interface.",
+    gradient: "from-orange-500 to-red-600",
+  },
+  {
+    title: "Online Fashion Store",
+    category: "E-Commerce Development",
+    description: "Full-featured e-commerce platform with secure payment gateway and product management.",
+    gradient: "from-green-500 to-teal-600",
+  },
+  {
+    title: "Brand Identity Design",
+    category: "Graphic Design",
+    description: "Creative branding package including logo design, brand guidelines, and marketing graphics.",
+    gradient: "from-pink-500 to-rose-600",
+  },
+  {
+    title: "SEO Optimized Business Website",
+    category: "Search Engine Optimization",
+    description: "Website optimized for search engines with keyword strategy and technical SEO improvements.",
+    gradient: "from-yellow-500 to-orange-600",
+  },
+  {
+    title: "Social Media Brand Campaign",
+    category: "Social Media Optimization",
+    description: "Strategic social media campaign to increase brand visibility and audience engagement.",
+    gradient: "from-cyan-500 to-blue-600",
+  },
+  {
+    title: "High Performance VPS Hosting Setup",
+    category: "Web / VPS Hosting",
+    description: "Secure VPS hosting setup with optimized performance, backups, and server monitoring.",
+    gradient: "from-indigo-500 to-purple-600",
+  },
+];
 
   return (
     <section id="portfolio" ref={ref} className="py-20 lg:py-32 bg-white">
