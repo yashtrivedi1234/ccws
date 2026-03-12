@@ -41,7 +41,7 @@ const Header = () => {
               transition={{ delay: 0.2 }}
               className="flex items-center"
             >
-              <img src={logo} alt="Code Crafter" className="h-10 w-auto" />
+             <img src={logo} alt="Code Crafter" className="h-[3rem] md:h-[3.5rem] w-auto" />
             </motion.div>
 
             <nav className="hidden lg:flex items-center space-x-8">
