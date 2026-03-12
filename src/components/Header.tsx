@@ -54,7 +54,7 @@ const Header = () => {
                     scrollToSection(link.href);
                   }}
                   href={link.href}
-                  className="text-sm font-medium text-gray-700 transition-colors hover:text-[rgb(12,86,112)]"
+                  className="text-lg font-medium text-gray-700 transition-colors hover:text-[rgb(12,86,112)]"
                 >
                   {link.name}
                 </motion.a>
